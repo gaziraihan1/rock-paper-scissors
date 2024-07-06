@@ -1,0 +1,56 @@
+body{
+    margin: 0px 8px;
+    padding: 0;
+    background: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.responsive{
+    width: 60vw;
+    margin: 0 auto;
+}
+.gameName{
+    font-size: 28px;
+    font-weight: 700;
+}
+.gameButton{
+    background:transparent;
+    border: 3px solid white;
+    height:120px;
+    width:120px;
+    border-radius: 60px;
+    cursor:pointer;
+    margin-right: 6px;
+}
+.gameButton img{
+    height:50px
+}
+.result{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.moves{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 16px;
+}
+.moveIcon{
+    height:40px;
+}
+.finalResult{
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: large;
+}
+.reset{
+    padding:6px 16px;
+    margin-top: 10px;
+    border:none;
+    cursor:pointer;
+}
+@media (max-width: 640px) {
+    .responsive{
+        width: 100vw;
+        margin-left: 1em;
+    }
+}

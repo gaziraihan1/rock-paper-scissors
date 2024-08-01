@@ -78,8 +78,8 @@ function playGame (moves) {
 
     document.querySelector('.moves')
     .innerHTML = `You 
-    ${moves} - 
-    ${randomMove} computer`;
+    "${moves}" - 
+    "${randomMove}" computer`;
 
     scoreUpdate();
 };

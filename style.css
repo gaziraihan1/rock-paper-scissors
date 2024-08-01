@@ -34,9 +34,6 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 16px;
 }
-.moveIcon{
-    height:40px;
-}
 .finalResult{
     margin-top: 30px;
     font-family: monospace;
@@ -50,7 +47,17 @@ body{
 }
 @media (max-width: 640px) {
     .responsive{
-        width: 100vw;
-        margin-left: 1em;
+        width: 90vw;
+        margin: 0 auto;
     }
+    .gameButton{
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+    .gameName{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
 }

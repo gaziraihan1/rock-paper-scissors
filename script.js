@@ -78,8 +78,8 @@ function playGame (moves) {
 
     document.querySelector('.moves')
     .innerHTML = `You 
-    <img src="${moves}-emoji.png" class="moveIcon"> - 
-    <img src="${randomMove}-emoji.png" class="moveIcon"> computer`;
+    ${moves} - 
+    ${randomMove} computer`;
 
     scoreUpdate();
 };
